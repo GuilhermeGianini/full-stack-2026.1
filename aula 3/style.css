@@ -1,0 +1,78 @@
+#do{border-style: dotted;}
+#da{border-style: dashed;}
+#so{border-style: solid;}
+#db{border-style: double;}
+#gr{border-style: groove;}
+#ri{border-style: ridge;}
+#in{border-style: inset;}
+#ou{border-style: outset;}
+
+
+#ex{ 
+    font-size: 15px;
+    padding: 20px;
+    width: 100px;
+    margin: 20 px;
+    height: 20px;
+    border: solid 2px black;
+    color: black;
+    box-shadow: 10px 10px rgba(16, 16, 243, 0.705);
+    border-radius: 20px
+}
+
+p{display: inline;}
+a{display: block;}
+
+    #d1{
+        background-color: green;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%
+    }
+
+    #d2{
+        background-color: aqua;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 50%;
+        right: 50%
+    }
+
+    #d3{
+        background-color: tomato;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        bottom: 40%;
+        right: 40%
+    }
+
+    p{
+        width: 400px;
+    }
+
+    #dotted{
+        border-style: dotted;
+    }
+
+.somediv{
+    font-size: 15px;
+    padding: -64px;
+    left: 200px;
+    height: 20px;
+    border: solid 2px black;
+    color: black
+}
+
+.relative {
+    position: relative;
+    top: -64px;
+    left: 200px;
+    font-size: 15px;
+    padding: 20px; 
+    width: 100px;
+    height: 20px;
+    border: 
+}
